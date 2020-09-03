@@ -1,0 +1,88 @@
+body {
+	margin: 0;
+	font-family: fantasy;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 1fr);
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	padding-top: 50px;
+	font-size: 4em;
+}
+
+.input {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	padding-bottom: 5px;
+}
+
+.input input {
+	width: 50%;
+	padding: 10px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	background-color: #F9F8F8;
+	color: black;
+	font-size: 1.2em;
+	font-family: fantasy;
+}
+
+.input input:focus {
+	border: 3px solid #555;
+}
+
+.input input:ms-input-placeholder {
+	color: black;
+	font-family: fantasy;
+}
+
+.input input::ms-input-placeholder {
+	color: black;
+	font-family: fantasy;
+}
+
+.input input::placeholder {
+	color: black;
+	font-family: fantasy;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	padding-top: 0;
+}
+
+.button button {
+	background-color: #F9F8F8;
+	border-radius: 20px;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	font-size:1em;
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	font-family: fantasy;
+}
+
+.unordered_list {
+	width: 90%;
+	margin: auto;
+	margin-top: 50px;
+	background-color: #F9F8F8;
+	border-radius: 5px; 
+}
+
+.list {
+	font-size: 1.3em;
+	padding-left: 7%;
+	font-family: fantasy;
+}
